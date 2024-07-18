@@ -1,0 +1,141 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #78c8fa;
+}
+
+/* Adjustable to browser size */
+/* @media (max-width:300px){
+        #greeting { 
+            display: flex;
+            flex-wrap:wrap;
+        }
+} */
+
+p {
+    font-size: medium;
+}
+
+#top {
+    background-image: url(pexels-luis-gomes-166706-546819.jpg);
+    height: 25vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: static;
+    z-index: 0;
+}
+
+#greeting {
+    /* opacity of bg */
+    background-color: rgba(48, 45, 61, 0.8);
+    height: 10rem;
+    width: 100rem;
+    border-radius: 8px;
+    /* font */
+    color: white;
+    font-size: large;
+    letter-spacing: 5px;
+    /* position */
+    position: static;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#myphoto {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20vw;
+}
+
+#aboutme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#html {
+    background-image: url('resized_HTML5_logo_and_wordmark.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+}
+
+#css {
+    background-image: url('resized_CSS3_logo_and_wordmark.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+}
+
+#js {
+    background-image: url('JavaScript-Symbol-1024x576.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+}
+
+#MySQL {
+    background-image: url('Database-mysql.svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+}
+
+#docker {
+    background-image: url('docker.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+}
+
+#MongoDB {
+    background-image: url('mongodb-icon-2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+}
+
+#ReactJS{
+    background-image: url('ReactJS.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+}
+
+#micr {
+    background-image: url('transfer-microsoft-office-to-another-computer-1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200px;
+}
+
+#timeline {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+#footer {
+    height: 20%;
+    background-color: rgb(215, 241, 249);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
